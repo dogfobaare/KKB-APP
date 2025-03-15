@@ -1,0 +1,28 @@
+body, main {
+    /* background-color: brown; */
+    scroll-behavior: smooth;
+}
+img {
+    /* border-radius: 20PX; */
+    border-bottom-right-radius: 40PX;
+    border-bottom-left-radius: 40PX;
+    height: 500px;
+}
+header {
+    background-color: black;
+    /* padding: 20px; */
+}
+main .text-center {
+ 
+}
+/* #myCarousel {
+    height: 60%;
+} */
+
+
+.CarouImg {
+    /* background-color: #777; */
+    width: 100%;
+    z-index: 1;
+    margin-top: 100px;
+}

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.72.0" />
+    <title>KKB Music</title>
+
+    <link
+      rel="canonical"
+      href="https://v5.getbootstrap.com/docs/5.0/examples/album/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="style2.css">
+  </head>
+
+  <body>
+    <!--  -->
+    <header id="header">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">KKB</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Events</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control mr-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- the great carousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <rect width="0%" height="0%" fill="#777" /></svg> -->
+
+          <div class="container CarouImg">
+           
+            
+            <div class=" text-center">
+        
+               <img src="images/pius.jpg" alt="">
+            </div>
+            <h3>Pius</h3>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <rect width="0%" height="0%" fill="#777"/></svg> -->
+
+          <div class="container CarouImg">
+            <div class="text-center">
+            <img src="images/Becky.jpg" alt="">
+            </div>
+            <h3>Becca</h3>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <rect width="0%" height="0%" fill="#777" /></svg> -->
+
+          <div class="container CarouImg">
+            <div class=" text-center">
+             <img src="images/fine girl.jpg" alt="">
+            </div>
+            <h3>Selina</h3>
+
+            
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!--  -->
+   
+    <!-- <audio controls src="music/ALAYOUNTI BODE.mp3">new song</audio> -->
+    <main>
+      
+      <section class="py-2 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="font-weight-bold">KKB Music</h1>
+
+            <p class="lead text-muted">
+              Music is an instrument that facilitate peace and unity. 
+              this site is a place where you can download anytype of music of your choice. 
+              But for now lets explore the world of <br> Konkomba Music
+            </p>
+            <p>
+              <a href="#" class="btn btn-primary my-2">Top Artists</a>
+              <a href="#" class="btn btn-secondary my-2">Upcoming Artists</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+
+            <div class="col">
+              <div class="card shadow-sm">
+              
+                <img src="images/Pius N.jpg" alt="" />
+
+                <div class="card-body">
+                  <p class="card-text">
+                    <h3>Lazzy ft Don Metal</h3>
+                    <h5>My time</h5>
+                    <!-- This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer. -->
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <audio controls src="music/Don_Mettal_—_My_Time_Ft_Lazzybwoy(256k).mp3"></audio">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!--  -->
+            <div class="col">
+                <div class="card shadow-sm">
+                  <img src="images/Becky.jpg" alt="" />
+                  <div class="card-body">
+                    <p class="card-text">
+                    <h3>selection</h3>
+                    <h5>Uba ka neen</h5>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <audio controls src="music/SELLECTION ONE .mp3"></audio">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="images/fine girl.jpg" alt=""  />
+                  <div class="card-body">
+                    <p class="card-text">
+                    <h3>Alayouti</h3>
+                    <h5>Bassare</h5>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <audio controls src="music/ALAYOUNTI BODE.mp3"></audio">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="images/Pius N.jpg" alt=""  />
+                  <div class="card-body">
+                    <p class="card-text">
+                   <h3>Beat Amanda</h3>
+                   <h5>best beat</h5>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <audio controls src="music/Beat AMANDA.mp3">beat</audio">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="images/Becky.jpg" alt="" />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <h3>Bat and God</h3>
+                      <h5>CO</h5>
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <audio controls src="music/ALAYOUNTI BODE.mp3"></audio">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="images/fine girl.jpg" alt=""/>
+                  <div class="card-body">
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a natural
+                      lead-in to additional content. This content is a little bit
+                      longer.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <audio controls src="music/ALAYOUNTI BODE.mp3"></audio">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="images/Pius N.jpg" alt="" height="" />
+                  <div class="card-body">
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a natural
+                      lead-in to additional content. This content is a little bit
+                      longer.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <audio controls src="music/ALAYOUNTI BODE.mp3"></audio">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="images/Becky.jpg" alt=""  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a natural
+                      lead-in to additional content. This content is a little bit
+                      longer.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <audio controls src="music/ALAYOUNTI BODE.mp3"></audio">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="images/fine girl.jpg" alt=""  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a natural
+                      lead-in to additional content. This content is a little bit
+                      longer.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <audio controls src="music/ALAYOUNTI BODE.mp3"></audio">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+<!-- the carousel -->
+
+      
+    </main>
+   
+
+
+  
+
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-right mb-1">
+          <a href="#header">Back to top</a>
+        </p>
+        <p class="mb-1">
+          This is &copy; KKB Music, but please download and enjoy it.
+        </p>
+        <p class="mb-0">
+       visit our face book page @ <a href="">KKB Facebook</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
